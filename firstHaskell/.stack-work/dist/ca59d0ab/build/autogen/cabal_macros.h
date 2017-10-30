@@ -14,6 +14,13 @@
   (major1) == 4 && (major2) <  9 || \
   (major1) == 4 && (major2) == 9 && (minor) <= 1)
 
+/* package gloss-1.11.1.1 */
+#define VERSION_gloss "1.11.1.1"
+#define MIN_VERSION_gloss(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  11 || \
+  (major1) == 1 && (major2) == 11 && (minor) <= 1)
+
 /* package text-1.2.2.2 */
 #define VERSION_text "1.2.2.2"
 #define MIN_VERSION_text(major1,major2,minor) (\
